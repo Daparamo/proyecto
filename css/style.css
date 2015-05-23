@@ -1,0 +1,71 @@
+body
+{
+	 background: #ddd url(../img/bg.jpg) no-repeat; 	
+}
+
+div
+{
+	text-align:center;
+	border: solid 1px #4194C6; 
+	border-radius: 5%;	
+	color: white;
+	background:  #371842;
+}
+#comentarios
+{
+	border: none;
+	width: 40%;
+	height: 310px;
+	overflow-y: scroll;
+}
+
+.comentario
+{
+	width: 40%;
+}
+hr
+{	
+	color:#7D2B53;
+	background-color: #7D2B53;
+}
+#txt_nom
+{
+	text-align: left;
+}
+#like{
+	text-align: right;
+	border-radius: 5%;
+}
+.nombre
+{
+	text-align: left;
+	font: helvetica,arial;
+	font-size: 30px;
+}
+.myButton 
+{
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover 
+{
+	background-color:#5cbf2a;
+}
+.myButton:active 
+{
+	position:relative;
+	top:3px;
+}
+
+        
