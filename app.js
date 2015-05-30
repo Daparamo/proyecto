@@ -46,7 +46,7 @@ app.get("/updateLike/:id", function(req, res)
 
 app.get('/getData', function(req, res)
 {
-	var datos = coleccion.find({});
+	var datos = coleccion.find();
   	datos.toArray(function(err, doc)
   	{
   		!err ? res.json(doc) : console.log (err);    	
